@@ -2,26 +2,26 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Lattitude - Home</title>
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="reset.css"> -->
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Latitude - Home</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!--from the navbar site of bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type+"button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id-"navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href"#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,46 +44,52 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="page-text">
-                    <h1>Summary: Lattitude vs. X</h1>
+                    <h1>Summary: Latitude vs. X</h1>
                     <hr>
-                    <img src="https://github.com/thompsle154/Web-Design-Challenge/blob/main/Resources/assets/images/Fig1.png?raw=true"
-                        alt="Lattitude vs. Longitude"
+                    <img src="https://github.com/thompsle154/Web-Design-Challenge/tree/main/Resources/assets/images/MaxTemp_vs_Latitude.png?raw=true"
+                        alt="title"
                         class="main-img">
-                        <p>The purpose of this project was to analyze how weather changes as you move closer to the equator.</p>
-                        <p>Once the dataset was assembled, Matplotlib was used to plot various aspects of the weather against the latitude</p>
+                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first
+                            pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
+                            temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, /
+                            as well as explanations and descriptions of any trends and correlations witnessed.</p>
                 </div>
             </div>
-            <div class="Page-text">
+            <div class="col-lg-4 page-visuals">
                 <div class="page-text">
                     <h2>Visualizations</h2>
                     <hr>
                     <div class="visual-container">
                         <div class="image">
                             <a href="max-temperature.html">
-                                <img src="https://github.com/thompsle154/Web-Design-Challenge/blob/main/Resources/assets/images/MaxTemp_vs_latitude.png?raw=true"
+                                <img src="https://github.com/thompsle154/Web-Design-Challenge/tree/main/Resources/assets/images/MaxTemp_vs_Latitude.png?raw=true"
                                     alt="vs. Max Temperature"/>
                             </a>
-                            <div class="image">
-                                <a href="humidity.html">
-                                    <img src="https://github.com/thompsle154/Web-Design-Challenge/blob/main/Resources/assets/images/Humidity_vs_latitude.png?raw=true"
-                                        alt="vs. Humidity"/>
-                                </a>
-                                <div class="image">
-                                    <a href="cloudiness.html">
-                                        <img src="https://github.com/thompsle154/Web-Design-Challenge/blob/main/Resources/assets/images/Cloudiness_vs_latitude.png?raw=true"
-                                            alt="vs. Cloudiness"/>
-                                    </a>
-                                    <div class="image">
-                                        <a href="wind-speed".html">
-                                            <img src="https://github.com/thompsle154/Web-Design-Challenge/blob/main/Resources/assets/images/WindSpeed_vs_latitude.png?raw=true"
-                                                alt="vs. Wind Speed"/>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                        </div>
+                        <div class="image">
+                            <a href="humidity.html">
+                                <img src="https://github.com/thompsle154/Web-Design-Challenge/tree/main/Resources/assets/images/Humidity_vs_Latitude.png?raw=true"
+                                    alt="vs. Humidity"/>
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="cloudiness.html">
+                                    <img src="https://github.com/thompsle154/Web-Design-Challenge/tree/main/Resources/assets/images/Cloudiness_vs_Latitude.png?raw=true"
+                                        alt="vs. Cloudiness"/>
+                            </a>
+                        </div>
+                        <div class="image">
+                            <a href="wind-speed".html">
+                                    <img src="https://github.com/thompsle154/Web-Design-Challenge/tree/main/Resources/assets/images/WindSpeed_vs_latitude.png?raw=true"
+                                        alt="vs. Wind Speed"/>
+                            </a>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
         
  </body>
 
